@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    font-family: Helvetica;
+    margin: 0px;
+}
+
+h1 {
+    font-size: xx-large;
+    margin-top: 10%;
+}
+
+h2 {
+  font-size: x-large;
+  font-weight: 400;
+}
+
+h3 {
+    font-size: large;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 80px;
+    background-color: red;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+
+}
+
+button.rock, button.paper, button.scissor {
+    padding: 0;
+    margin: 0;
+    font-size: 120px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: none;
+}
+
+button.rock:hover, button.paper:hover, button.scissor:hover {
+    transform: translateY(3px);
+    transition: 0.15s;
+}
+
+button.rock:active, button.paper:active, button.scissor:active {
+    background-color: #E2E2E2;
+    transition: 0s;
+}
+
+.selections {
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+
+.progressBar {
+    display: flex;
+}
